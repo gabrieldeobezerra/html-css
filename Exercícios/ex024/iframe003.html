@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-be">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de Iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Faça sua escolha</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus eum aperiam quasi obcaecati soluta perferendis dolore commodi veniam ex sit molestias nostrum incidunt sapiente, excepturi aut cupiditate, debitis deserunt illo!</p>
+
+    <ul>
+        <li><a href="páginas-extras/page001.html" target="frame">Primeira página</a></li>
+        <li><a href="páginas-extras/page002.html" target="frame">Segunda página</a></li>
+        <li><a href="páginas-extras/page003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit deleniti quod architecto itaque blanditiis nisi nihil ex recusandae, velit tempore earum, corporis rem ad inventore numquam. Obcaecati voluptatum vero eveniet! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, fugit praesentium nihil quasi voluptate repudiandae reiciendis harum porro quas adipisci veritatis eveniet illum excepturi error perferendis eius assumenda, cum blanditiis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime consequatur corrupti nesciunt aut a, tenetur odio id voluptatibus molestiae officia. Porro laborum officiis odit ad quia non! Tempora, alias facere!</p>
+
+    <iframe srcdoc="<h1>Escolha uma das opções acima</h1>" frameborder="0" id="tela" name="frame">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat atque, omnis, pariatur inventore voluptate exercitationem saepe voluptatum dolores explicabo reprehenderit minus nostrum autem quisquam ipsum in eligendi sit iste corporis.</p>
+</body>
+</html>
